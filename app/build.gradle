@@ -1,5 +1,4 @@
 plugins {
-    id 'maven-publish'
     id 'com.android.library'
 }
 
@@ -49,7 +48,7 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.IndiluStudio'
                 artifactId = 'testLibrary'
-                version = 'v1.0.3'
+                version = 'v1.0.4'
             }
         }
     }
